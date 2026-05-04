@@ -1,0 +1,19 @@
+{
+  "actorSpecification": 1,
+  "name": "sales-engineering-mcp",
+  "title": "Sales-Engineering / RFP MCP — Auto-Fill Security Questionnaires for AI Agents",
+  "description": "MCP server for AI sales agents and sales engineers: structured response templates for SOC2 / ISO27001 / HIPAA / GDPR / NIST CSF security questionnaires, RFP boilerplate, technical attestations, pricing sections, competitive battlecards. 7 tools. Disclaimer: starting templates; not legal or security advice — verify with qualified counsel.",
+  "version": "1.0.0",
+  "buildTag": "latest",
+  "dockerfile": "./Dockerfile",
+  "dockerContextDir": ".",
+  "storages": { "dataset": { "actorInputSchemaId": "INPUT_SCHEMA" } },
+  "input": "./input_schema.json",
+  "categories": ["AI", "AGENTS", "MCP_SERVERS", "BUSINESS", "AUTOMATION"],
+  "seoTitle": "Sales Engineering MCP for AI Agents | RFP + Security Questionnaire Auto-Fill",
+  "seoDescription": "MCP server for AI sales engineers: SOC2 / ISO27001 / HIPAA / GDPR / NIST CSF response templates, RFP boilerplate, security attestations. Loopio-alternative starter layer.",
+  "isDeprecated": false,
+  "isAnonymouslyRunnable": true,
+  "isPublic": true
+}
+</content>

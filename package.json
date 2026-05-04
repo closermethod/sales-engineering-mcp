@@ -1,0 +1,25 @@
+{
+  "name": "sales-engineering-mcp",
+  "version": "1.0.0",
+  "description": "Sales-Engineering / RFP-Response MCP — structured templates for security questionnaires (SOC2, ISO27001, HIPAA, GDPR, NIST CSF), RFP responses, technical attestations, and pricing/competitive battlecards. For mid-market B2B SaaS sales engineering teams. Disclaimer: structured templates; not a substitute for legal/security counsel.",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "npx ts-node src/main.ts"
+  },
+  "keywords": ["mcp", "sales-engineering", "rfp", "security-questionnaire", "ai-agent", "soc2", "iso27001", "loopio-alternative"],
+  "author": "Elisabeth Hitz <elibierhitz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0",
+    "ts-node": "^10.9.0"
+  },
+  "engines": { "node": ">=18.0.0" }
+}
+</content>
